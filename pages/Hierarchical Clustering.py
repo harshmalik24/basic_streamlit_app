@@ -5,7 +5,7 @@ import scipy.cluster.hierarchy as sch
 from sklearn.cluster import AgglomerativeClustering
 
 #reading the dataset
-dataset = pd.read_csv(r"C:\Users\harsh\Desktop\Intern\project2\pages\Mall_Customers.csv")
+dataset = pd.read_csv("C:\\Users\\harsh\\Desktop\\Intern\\project2\\pages\Mall_Customers.csv")
 X=dataset.iloc[:, :].values
 print(X)
 
